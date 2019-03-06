@@ -1,5 +1,5 @@
 # Natural Language Processing in Spanish
-These notebooks demonstrate the abilities and challenges to natural langauge processing (NLP) with Spanish language. The purpose of this project is to use machine learning to achieve word clustering using natural language data from a real insurance company's customer service department. 
+These notebooks demonstrate the capabilities and challenges to natural langauge processing (NLP) with Spanish language. The purpose of this project is to use machine learning to achieve word clustering using natural language data from a real insurance company's customer service department. 
 
 At the beginning of our NLP pipeline we start with raw text. In our case, What'sApp chat messages made by customers writing into an Argentine insurance company for various reasons, such as requesting a tow truck, renewing a policy, or canceling a policy.
 
