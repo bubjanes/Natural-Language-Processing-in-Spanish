@@ -7,7 +7,7 @@ The first layer of abstraction:
 From raw text we transform the data, each word and sentence, into 'token' objects, which contain useful pieces of data, such as part of speech, entity recognition, ngrams, srank, inverse document frequency, textrank, etc. We will use some of these in our next transformation to a vector object. 
 
 The second layer of abstraction:
-With our tokens we can apply a vectorizer() in a process called "embedding." In this step, our numerical representations of words are passed through complex statistical and probablistic formulas to create a vector object. Using the fit_transform() function, we form our most complext object yet, the matrix, which is exists in n-dimensions (this could be more than one hundred dimensions).
+With our tokens we can apply a vectorizer() in a process called "embedding." In this step, our numerical representations of words are passed through complex statistical and probablistic formulas to create a vector object. Using the fit_transform() function, we create our most complex object yet, the matrix, which is exists in n-dimensions (this could be more than one hundred dimensions).
 
 Out the pipe:
-With the matrix object, we can now extract various forms of intelligence about our data set. The process applied in this project is called "clustering," which groups the words into categories or statistical clusters. This information could be useful for the insurance company to analyze what people are asking about when they write the company for customer service.
+With the matrix object, we can now extract various intelligence about our data set in various forms. The process applied in this project is called "clustering," which groups the words into categories or statistical clusters. This information could be useful for the insurance company to analyze what people are asking about when they write the company for customer service.
